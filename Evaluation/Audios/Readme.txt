@@ -1,0 +1,1 @@
+Each folder is named by the jammer name we used. In each folder, Raw.wav is the clean speech without any process, A0.wav is the audio jammed by each ultrasonic jammer, A1-A4.wav are the resultes of A0.wav processed by noise elimination methods we mentioned in paper.
