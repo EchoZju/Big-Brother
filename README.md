@@ -1,5 +1,5 @@
 # Big-Brother
-This is the source code of the paper 'Big Brother is Listening: A Comprehensive Evaluation Framework on Ultrasonic Microphone Jammers' Resilience'. The audio data we provided are only for testing our codes, which are not the data we used in our paper.
+This is the source code of the paper 'Big Brother is Listening: An Evaluation Framework on Ultrasonic Microphone Jammers' in Infocom 2022. The audio data we provided are only for testing our codes, which are not the data we used in our paper.
 
 ## Evaluation
 The evaluation algrithms are base on https://github.com/schmiph2/pysepm.<br>
