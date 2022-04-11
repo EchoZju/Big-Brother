@@ -1,7 +1,7 @@
 clc
 clear
-audioPath = ".\Jammed\J1a\J1.wav";
-savePath = ".\Recovered\J1a\A1a.wav";
+audioPath = ".\JammedAudio.wav";
+savePath = ".\NF.wav";
 
 wlen = 4096;
 hop = wlen/8;

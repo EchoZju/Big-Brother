@@ -7,8 +7,8 @@ import csv
 import os
 from scipy.io import wavfile
 
-refPath = ".\\Audio\\raw1.wav"
-degPath = ".\\Audio\\J1a\\J1.wav"
+refPath = "refAudio.wav"
+degPath = "degAudio.wav"
 sr, ref = wavfile.read(refPath)
 sf, deg = wavfile.read(degPath)
 

@@ -1,8 +1,8 @@
 clc
 clear
 numSrc = 2;
-audioPath = [".\Jammed\J1a\J3_1.wav",".\Recovered\J1a\J3_2.wav"];
-savePath = [".\Recovered\J1a\A2_1.wav",".\Recovered\J1a\A2_2.wav"];
+audioPath = [".\JammedAudio_1.wav",".\JammedAudio_2.wav"];
+savePath = [".\BSS_1.wav",".\BSS_2.wav"];
 
 [rawdata1, fs1] = audioread(audioPath(1));
 [rawdata2, ~] = audioread(audioPath(2));
