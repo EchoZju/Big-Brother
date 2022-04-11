@@ -4,7 +4,7 @@ This is the source code of the paper 'Big Brother is Listening: A Comprehensive 
 ##Audio Data
 In folder "AudioData", there are the audios provided for testing our codes, which are only part of the data we used in our paper.
 
-Each subfolder is named by the jammer name we used. The wav files in each subfolder are: Raw.wav: the clean speech without any process, A0.wav: the audio jammed by each ultrasonic microphone jammer, A1.wav: the result of the jammed audio processed by STFT-based notch filter (NF), A2: processed by  wide band stop filter (WBSF) of 2 kHz cut-off frequency, A3: processed by blind source separation (BSS), and A4: processed by adaptive notch filter (ANF).
+Each subfolder is named by the jammer name we used. The wav files in each subfolder are: Raw.wav: the clean speech without any process, A0.wav: the audio jammed by each ultrasonic microphone jammer, A1.wav: the result of the jammed audio processed by blind source separation (BSS), A2: processed by STFT-based notch filter (NF), A3: processed by wide band stop filter (WBSF) of 2 kHz cut-off frequency, and A4: processed by adaptive notch filter (ANF).
 
 ## Codes
 In folder "Codes", there are the source codes for noise elimination and evaluating jammers' resilience. **Please Remember to Changing Audio Paths before Using.**
